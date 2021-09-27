@@ -6,10 +6,6 @@ public class Donkey implements Tradable, Domesticatable {
         this.maxSpeed = 1;
     }
 
-    public void upgradeSpeed() {
-        this.maxSpeed++;
-    }
-
     @Override
     public int getPrice() {
         return 750;
